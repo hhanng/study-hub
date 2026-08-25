@@ -1,0 +1,43 @@
+.flashcard {
+  position: relative;
+  background: linear-gradient(160deg, var(--pink-50), var(--white));
+  border: 1.5px solid var(--pink-200);
+  border-radius: var(--radius);
+  padding: 22px 18px;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.flashcard:hover {
+  box-shadow: var(--shadow);
+}
+
+.flashcard:active {
+  transform: scale(0.99);
+}
+
+.flashcard-face {
+  width: 100%;
+  text-align: center;
+}
+
+.flashcard-face p {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.flashcard-hint {
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.flashcard-delete {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}

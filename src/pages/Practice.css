@@ -1,0 +1,80 @@
+.link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--pink-600);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.folder-status {
+  margin-top: 10px;
+}
+
+.daily-status-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.daily-status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.daily-upload-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.daily-upload-actions .btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+.flashcard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.problem-box {
+  margin-top: 6px;
+}
+
+.problem-statement {
+  font-weight: 500;
+  background: var(--pink-50);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+}
+
+.problem-step {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-top: 1px dashed var(--line);
+}
+
+.problem-step p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.problem-final {
+  margin-top: 12px;
+  background: var(--green-bg);
+  color: var(--green);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  font-size: 0.9rem;
+}

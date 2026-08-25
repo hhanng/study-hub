@@ -1,0 +1,44 @@
+.performance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.performance-card.is-priority {
+  border-color: var(--amber);
+  box-shadow: 0 4px 20px rgba(224, 160, 44, 0.15);
+}
+
+.performance-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.performance-card-top h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.performance-stats {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.performance-stat-value {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--pink-700);
+}
+
+.sparkline-empty {
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  padding: 18px 0;
+}

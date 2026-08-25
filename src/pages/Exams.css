@@ -1,0 +1,29 @@
+.exam-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.exam-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.exam-item-title {
+  font-size: 1.05rem;
+  margin-bottom: 2px;
+}
+
+.exam-item-notes {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin: 8px 0 10px;
+}
+
+.exam-item .icon-btn {
+  font-size: 0.75rem;
+  padding: 2px 0;
+}
