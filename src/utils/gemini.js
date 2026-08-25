@@ -4,7 +4,7 @@
 // parsed JSON — the model is always instructed to answer with JSON only,
 // and we defensively strip markdown code fences before parsing.
 
-const GEMINI_MODEL = 'gemini-2.5-flash'
+const GEMINI_MODEL = 'gemini-3.6-flash'
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`
 
 export class GeminiError extends Error {}
